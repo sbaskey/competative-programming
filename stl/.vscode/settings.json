@@ -1,0 +1,10 @@
+{
+    "sshfs.configs": [
+        {
+            "host": "193.168.195.147",
+            "name": "issue",
+            "password": "kramah1234",
+            "username": "kramah"
+        }
+    ]
+}
