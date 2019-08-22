@@ -4,7 +4,6 @@ using namespace std;
 
 #define n 10
 int t=0;
-
 vector <int> adj[n];
 bool active[10];
 int start[10];
@@ -68,7 +67,7 @@ int main()
 
     intitialize();
 
-    for(int i=0; i<nodes; i++)
+    for(int i=1; i<=nodes; i++)
         {
             if(start[i]==-1)
             {
