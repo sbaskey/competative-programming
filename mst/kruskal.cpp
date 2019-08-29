@@ -4,7 +4,6 @@ const int MAXX=1e4 +5;
 int id[MAXX],nodes,edges;
 
 pair<long long,pair<int,int>> p[MAXX];
-
 void initialize()
 {
     for(int i=0; i<MAXX; i++)

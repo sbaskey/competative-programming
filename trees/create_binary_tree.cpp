@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class node
+typedef struct node
 {
-    public:
+
     int key;
     struct node *left;
     struct node *right;
-};
+}node;
 
 node *root=NULL;
 
@@ -50,10 +50,11 @@ void inorder(node *r)
 
 void post_order(node* r)
 {
-    if(r!=NULL)
-    inorder(r->left);
-    inorder(r->right);
+    if(r!=NULL){
+    post_order(r->left);
+    post_order(r->right);
     cout<<r->key<<" ";
+    }
 }
 
 

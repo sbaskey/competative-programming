@@ -25,8 +25,6 @@ int main()
     A.push_back(2000);
      sort(A.begin(),A.end());//nlogn
 
-
-
     vector<int>::iterator it=lower_bound(A.begin(),A.end(),1000);//>=
     cout<<*it<<endl;
     vector<int>::iterator it1=upper_bound(A.begin(),A.end(),1000);//>
@@ -41,14 +39,6 @@ int main()
         cout<<*i3<<" ";
 
     cout<<endl;
-
-
-
-
-
-
-
-
 return 0;
 
 }
