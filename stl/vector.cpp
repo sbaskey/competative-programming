@@ -12,20 +12,20 @@ bool c(int x,int y)
 int main()
 {
     vector<int>A={1,21,34,12,4};
-    cout<<A[1]<<endl;
+    //cout<<A[1]<<endl;
 
     sort(A.begin(),A.end());//nlogn
 
     bool present=binary_search(A.begin(),A.end(),21);
 
-    cout<<present<<endl;
+    //cout<<present<<endl;
     A.push_back(1000);
     A.push_back(1000);
     A.push_back(1000);
     A.push_back(2000);
      sort(A.begin(),A.end());//nlogn
 
-    vector<int>::iterator it=lower_bound(A.begin(),A.end(),1000);//>=
+    vector<int>::iterator it=lower_bound(A.begin(),A.end(),10);//>=
     cout<<*it<<endl;
     vector<int>::iterator it1=upper_bound(A.begin(),A.end(),1000);//>
     cout<<*it1<<endl;

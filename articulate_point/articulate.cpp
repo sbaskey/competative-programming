@@ -62,6 +62,7 @@ cin>>nodes>>edges;
      //dis[i]=inff;
  }
  
+ 
  /*for(int i=0; i<nodes; i++)
  {
      cout<<adj[i].size()<<endl;
@@ -74,11 +75,14 @@ cin>>nodes>>edges;
      //cout<<1;
  }*/
  int s=1;
- dfs(adj,dis,low,vis,p,ap,s);
+ int a[20];
+ 
+
+//  dfs(adj,dis,low,vis,p,ap,s,int a);
 
  //cout<<t;
-for(int i=0; i<nodes; i++)
-    cout<<ap[i];
+// for(int i=0; i<nodes; i++)
+//     cout<<ap[i];
 
 //cout<<low[0];
 
